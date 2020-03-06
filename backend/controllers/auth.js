@@ -56,3 +56,14 @@ exports.signin = (req, res) => {
     });
   });
 };
+
+exports.signout = (req, res) => {
+  res.clearCookie();
+  res.json({
+    message: 'Signout success'
+  });
+};
+
+exports.requireSignin = expressJwt({
+  secret: process.env.JWT_SECRET
+});
