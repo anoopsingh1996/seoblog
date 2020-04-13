@@ -7,7 +7,7 @@
 6 silly lifecycle frontend@1.0.0~predev: no script for predev, continuing
 7 info lifecycle frontend@1.0.0~dev: frontend@1.0.0
 8 verbose lifecycle frontend@1.0.0~dev: unsafe-perm in lifecycle true
-9 verbose lifecycle frontend@1.0.0~dev: PATH: /usr/share/npm/bin/node-gyp-bin:/home/anoop/seoblog/frontend/node_modules/.bin:/home/anoop/anaconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+9 verbose lifecycle frontend@1.0.0~dev: PATH: /usr/share/npm/bin/node-gyp-bin:/home/anoop/seoblog/frontend/node_modules/.bin:/home/anoop/anaconda3/bin:/home/anoop/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 10 verbose lifecycle frontend@1.0.0~dev: CWD: /home/anoop/seoblog/frontend
 11 silly lifecycle frontend@1.0.0~dev: Args: [ '-c', 'next' ]
 12 silly lifecycle frontend@1.0.0~dev: Returned: code: 1  signal: null
@@ -24,7 +24,7 @@
 14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
 15 verbose pkgid frontend@1.0.0
 16 verbose cwd /home/anoop/seoblog/frontend
-17 error Linux 5.3.0-42-generic
+17 error Linux 5.3.0-46-generic
 18 error argv "/usr/bin/node" "/usr/bin/npm" "run" "dev"
 19 error node v8.10.0
 20 error npm  v3.5.2
